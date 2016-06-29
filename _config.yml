@@ -4,7 +4,7 @@ description: '梦想和自由一样，都有代价，但都值得。'
 url: 'http://joshgerdes.com/jekyll-uno'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'creolophus'
 
 author:
   name: 'Creolophus'
