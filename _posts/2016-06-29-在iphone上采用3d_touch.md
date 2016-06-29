@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 在iPhone上采用3D Touch
+categories: [翻译集]
 tags: [翻译集]
 ---
 
