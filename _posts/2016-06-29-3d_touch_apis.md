@@ -4,7 +4,6 @@ title: 3D Touch APIs
 categories: [翻译集]
 tags: [翻译集]
 ---
-发烧的金佛山地方就是迪欧放水电费就啥都if就打死哦福建省地偶发就是滴哦福建省地偶发就手动if就手动if解耦的是覅及度搜覅的就是覅哦都市金佛ID四级分数地方见谁都if就度搜i搜低分局度搜if激动死喔发圣诞节佛is的及覅偶
 
 本文翻译自[Apple官方](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/Adopting3DTouchOniPhone/3DTouchAPIs.html)
 
