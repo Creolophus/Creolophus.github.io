@@ -1,7 +1,10 @@
 ---
 layout: post
 title: 3D Touch APIs
+categories: [翻译集]
+tags: [翻译集]
 ---
+
 本文翻译自[Apple官方](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/Adopting3DTouchOniPhone/3DTouchAPIs.html)
 
 已发表在cocoachina
