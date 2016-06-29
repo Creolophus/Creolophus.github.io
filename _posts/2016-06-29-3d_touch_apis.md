@@ -2,7 +2,8 @@
 layout: post
 title: 3D Touch APIs
 ---
-
+本文翻译自https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/Adopting3DTouchOniPhone/3DTouchAPIs.html
+已发表在cocoachina
 
 iOS 9提供了如下3D Touch APIs:
 
