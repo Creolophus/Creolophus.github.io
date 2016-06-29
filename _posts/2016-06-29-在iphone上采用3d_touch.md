@@ -4,7 +4,6 @@ title: 在iPhone上采用3D Touch
 ---
 
 
-# 在iPhone上采用3D Touch#
 
 ## 3D Touch入门 ##
 
@@ -33,7 +32,7 @@ title: 在iPhone上采用3D Touch
 
 两种快速选项都可以显示最多两行文本和一个可选的图标.
 
-###Peek和Pop
+### Peek和Pop #
 
 现在你可以授权给你应用的视图控制器来响应用户不同的按压力量.随着用户按压力量的增加,交互会出现三个阶段:  
 
@@ -46,20 +45,20 @@ title: 在iPhone上采用3D Touch
 当你使用*peek*和*pop*时,系统通过压力决定从哪个阶段过度至下一个.用户可以在设置>通用>辅助功能>3D Touch中进行修改.
 
 ![image](https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/Adopting3DTouchOniPhone/Art/preview_available_2_2x.png)
-#####暗示peek是可使用的
+##### 暗示peek是可使用的 #
 
 轻按后,周围内容会变得模糊,这告诉用户预览更多内容(*peek*)是可以使用的.
 
 ![image](https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/Adopting3DTouchOniPhone/Art/peek_2x.png)
 
-#####Peek
+##### Peek #
 稍微用力按下,屏幕视图就会过渡到peek,一个你设置的用来展示更多内容的视图－就像邮件应用做的一样.
 如果用户这时结束了触碰,peek就会消失并且应用回到交互开始之前的状态.
 或者这个时候,用户可以在peek界面上更用力按下来跳转到使用peek呈现的视图,这个过渡动画会使用系统提供的pop过渡效果.pop出来的视图会填满你应用的根视图并且显示一个返航按钮可以回到交互开始的地方.(图中没有显示最后展示pop视图的阶段)
 
 ![image](https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/Adopting3DTouchOniPhone/Art/peek_quick_actions_2x.png)
 
-#####Peek快速选项
+##### Peek快速选项 #
 如果用户一直保持触摸,可以向上滑动Peek视图,系统会展示出你预先设置和peek关联的peek快速选项.
 每一项peek快速选项都是你应用的深度链接.当peek快速选项出现后,用户可以停止触摸而且peek会停留在屏幕中.这允许用户点击一个快速选项,唤起相关链接.
 
@@ -67,11 +66,11 @@ title: 在iPhone上采用3D Touch
 你同样也可以在网页视图中开启peek和pop,请参看[Web View Peek and Pop](https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/Adopting3DTouchOniPhone/3DTouchAPIs.html#//apple_ref/doc/uid/TP40016543-CH4-SW5).
 
 
-###压力属性
+### 压力属性 #
 在iOS9中,UITouch类获得了两个全新的属性帮助你在应用中自定义3D Touch:[force](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UITouch_Class/index.html#//apple_ref/occ/instp/UITouch/force)和[maximumPossibleForce](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UITouch_Class/index.html#//apple_ref/occ/instp/UITouch/maximumPossibleForce).这是第一次在iOS设备上,这些属性可以在你应用接收到的UIEvent对象中让你侦测并响应触控压力.
 触控压力感应有很大的动态范围,对于你的应用c来说它是个浮点值.
 
-###3D Touch的辅助功能和人机界面指南
+### 3D Touch的辅助功能和人机界面指南 #
 
 为了确保你的用户能够完整使用你app的功能,请根据3D Touch是否可用来分别规划你的代码.请参看[Checking for 3D Touch Availability](https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/Adopting3DTouchOniPhone/3DTouchAPIs.html#//apple_ref/doc/uid/TP40016543-CH4-SW2).
 
@@ -81,7 +80,7 @@ title: 在iPhone上采用3D Touch
 
 想获得更多关于3D Touch的重要指南,查阅[iOS Human Interface Guidelines](https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html#//apple_ref/doc/uid/TP40006556)中的[3D Touch](https://developer.apple.com/library/prerelease/ios/documentation/UserExperience/Conceptual/MobileHIG/3DTouch.html#//apple_ref/doc/uid/TP40006556-CH71).
 
-###开发环境
+### 开发环境 #
 Xcode7支持3D Touch开发.所有Xcode的调试功能对3D Touch的新功能都是可使用的.
 
 注意下列事项:
